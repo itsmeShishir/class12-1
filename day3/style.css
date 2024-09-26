@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "shishir";
+    src: url("./work.ttf");
+}
+/* universal selector  */
+*{
+   font-family: cursive; 
+}
+
+/* h1 -> selector */
+/* background -> properties */
+/* red -> value */
+/* element selector  */
+h1{
+    background: red;
+    color: aqua;
+}
+
+/* id selector */
+#heading{
+    background-color: palegreen;
+}
+/* class selector */
+.heading{
+    background-color: tomato;
+}
+/* note-> use class all of the time */
+/* group */
+h1,h2,p{
+    color: green;
+    font-family: "Work Sans";
+}
+/* this is a comment 
+
+ font */
+p{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "shishir";
+
+    /* font-style: italic; */
+   
+}
+/* color type */
+/* named color */
+/* hexa   #ffffff -> ff -> white, ff-> green, ff-> blue */ 
+/* rgb -> red , green, blue  -> 0 to 255 */
+/* rgba -> red, green , blue -> a -> alpha(0 to 0.9)*/
+/* hsl -> hue, saturation , lightness */
+.color{
+    color: rgb(13, 13, 13) ;
+    /* background-color: rgb(255, 0, 255); */
+    border-style: double;
+    border-color: red;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+
+
+
