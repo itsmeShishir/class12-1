@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 @font-face {
     font-family: "shishir";
     src: url("./work.ttf");
@@ -57,6 +61,48 @@ p{
     border-color: red;
     border-width: 10px;
     border-radius: 20px;
+    display: inline;
+}
+.myday{
+    border: 5px solid green;
+    /* padding: 10px 20px 20px 30px; */
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+    /* margin */
+    margin:10px 20px 20px 30px;
+    margin-left: 50px;
+    display: inline-block;
+    width: 4000px;
+}
+.one{
+    width: 50%;
+    margin: 0 auto;
+    background: aquamarine;
+    height: 500px;
+    text-shadow: 5px 5px 10px red;
+}
+.one img{
+    float: right;
+}
+a{
+    display: block;
+}
+.link:link{
+    color: gold;
+}
+.active:active{
+    color: green;
+    font-size: 20px;
+}
+.visited:visited{
+    background: green;
+}
+.hover:hover{
+    background-color: aqua;
+
 }
 
 
