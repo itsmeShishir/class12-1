@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+}
+h1{
+    position: static;
+    top: 100px
+    /* top: 100px; */
+    /* right left bottom */
+}
+.two{
+    position: relative;
+}
+.imgone{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    top: 100px;
+    z-index: -1;
+}

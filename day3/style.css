@@ -83,12 +83,14 @@ p{
     background: aquamarine;
     height: 500px;
     text-shadow: 5px 5px 10px red;
+    overflow: scroll;
 }
 .one img{
     float: right;
+
 }
 a{
-    display: block;
+    width: 400px;
 }
 .link:link{
     color: gold;
@@ -102,9 +104,30 @@ a{
 }
 .hover:hover{
     background-color: aqua;
-
 }
 
+.ones{
+    background:  green; 
+}
 
+/* max, or min */
+/* max-width, max-height or min-width, min-height */
+/* media query */
+@media (max-width: 500px) {
+    .ones{
+        background-color: red;
+    }
+}
+
+/* Combinators in css */
+.three .too a{
+    color: red;
+}
+.too ~ a{
+    color: yellow;
+}
+.too + a{
+    color: blue;
+}
 
 

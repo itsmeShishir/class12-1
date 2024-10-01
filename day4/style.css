@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.img{
+    width: 100vw;
+    height: 350px;
+    border: 1px solid red;
+    padding: 10px;
+    object-fit: contain;
+}
+.img2{
+    width: 100vw;
+    height: 100vh;
+    background-image : url('./img/img2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-attachment: fixed;
+    opacity: 0.2;
+}
+/* : -> pseudo code */
+/*  :: -> pseudo  */
+
+
