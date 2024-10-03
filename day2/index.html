@@ -5,79 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <!-- Header start here -->
-    <header >
-            logo
-            <ul >
-                <li><a href="#">home</a></li>
+    <header class="container heading flex aligncenter justifybetween">
+            <p class="logo">Shishir <span class="logoback">Bhandari</span></p>
+            <ul class="flex gap8" >
+                <li><a href="#">Home</a></li>
                 <li> <a href="#">About</a></li>
                 <li> <a href="#">Education</a></li>
                 <li><a href="#">Skill</a></li>
                 <li><a href="#">Portfolio</a></li>
+                <li><a href="#" class="buttons">Contact</a></li>
             </ul>
-
     </header>
     <!-- herader end here -->
     <!-- main body start here -->
     <main>
         <!-- about  -->
-         <section>
-            <div>
-                <h1>Hi my name is shishir </h1>
+         <section class="flex container aboutme aligncenter justifybetween">
+            <div class="aboutdetails">
+                <div>
+                    <ol class="flex gap8">
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                    </ol>
+                </div>
+                <h1>Hi my name is <span>Shishir Bhandari</span> A Full Stack Developer from Nepal </h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur quisquam est aspernatur. Laboriosam sapiente velit aut earum, distinctio repellendus placeat! Accusantium dicta officia expedita necessitatibus?</p>
+                <a href="#" class="buttons">Contact</a>
             </div>
-            <div>
-                <img src="./img/img2.jpg" alt="this is user img" width="250">
+            <div class="aboutimg ">
+                <img src="./img/file.png" alt="this is user img"  >
             </div>
          </section>
          <!-- education -->
-          <section>
+          <section class="container flex justifybetween thingiknow">
+            <div class="flex thingsitem aligncenter">
+                <i class="fa-solid fa-desktop"></i>
+                <div>
+                    <h1>UI/UX Design</h1>
+                    <p>
+                        At in proin consequat ut cursus venenatis sapien.
+                    </p>
+                </div>
+            </div>
+            <div class="flex thingsitem aligncenter">
+                <i class="fa-solid fa-desktop"></i>
+                <div>
+                    <h1>UI/UX Design</h1>
+                    <p>
+                        At in proin consequat ut cursus venenatis sapien.
+                    </p>
+                </div>
+            </div>
+            <div class="flex thingsitem aligncenter">
+                <i class="fa-solid fa-desktop"></i>
+                <div>
+                    <h1>UI/UX Design</h1>
+                    <p>
+                        At in proin consequat ut cursus venenatis sapien.
+                    </p>
+                </div>
+            </div>
 
           </section>
           <!-- education end here -->
         <!-- skill -->
-         <section>
+         <section class="container skill">
             <h1>Things i know</h1>
             <div>
                 <div>
-                    <img src="" alt="" width="50">
+                    <img src="https://plus.unsplash.com/premium_photo-1678565999332-1cde462f7b24?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
                 </div>
                 <div>
-                    <img src="" alt="" width="50">
+                    <img src="https://plus.unsplash.com/premium_photo-1678565999332-1cde462f7b24?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
                 </div>
                 <div>
-                    <img src="" alt="" width="50">
+                    <img src="https://plus.unsplash.com/premium_photo-1678565999332-1cde462f7b24?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
                 </div>
                 <div>
-                    <img src="" alt="" width="50">
+                    <img src="https://plus.unsplash.com/premium_photo-1678565999332-1cde462f7b24?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
                 </div>
                 <div>
-                    <img src="" alt="" width="50">
+                    <img src="https://plus.unsplash.com/premium_photo-1678565999332-1cde462f7b24?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
                 </div>
                
             </div>
          </section>
         <!-- skill end here -->
          <!-- portfolio -->
-        <section>
-            <h1>Past Project</h1>
-            <div>
-                <div>
+        <section class="container ">
+            <h1 class="pheading">Past Project</h1>
+            <div class="portfolio flex justifybetween gap8 aligncenter ">
+                <div class="pitems flex aligncenter">
                     <img src="./img/img2.jpg" alt="html project" width="250">
                     <h1>Portfolio Website</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facere delectus quae dolore!</p>
+                    <button class="buttons">Read more</button>
                 </div>
-                <div>
+                <div class="pitems flex aligncenter">
                     <img src="./img/img2.jpg" alt="html project" width="250">
                     <h1>Portfolio Website</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facere delectus quae dolore!</p>
+                    <button class="buttons">Read more</button>
                 </div>
-                <div>
+                <div class="pitems flex aligncenter">
                     <img src="./img/img2.jpg" alt="html project" width="250">
                     <h1>Portfolio Website</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facere delectus quae dolore!</p>
+                    <button class="buttons">Read more</button>
                 </div>
             </div>
         </section>
@@ -85,15 +124,15 @@
     </main>
     <!-- main body end here -->
     <!-- footer start here -->
-    <footer>
+    <footer class=" container flex footer justifybetween aligncenter">
         <p>All right reserve by <span>Shishir</span> &copy; 2024</p>
         <div>
-            <ol>
-                <li><i class="fa-brands fa-facebook"></i></li>
-                <li><i class="fa-brands fa-instagram"></i></li>
-                <li><i class="fa-brands fa-twitter"></i></li>
-            </ol>
-        </div>
+                    <ol class="flex gap8">
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                    </ol>
+                </div>
     </footer>
     <!-- footer end here -->
 </body>

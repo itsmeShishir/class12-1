@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+.justifycenter{
+    justify-content: center;
+}
+.justifybetween{
+    justify-content: space-between;
+}
+.aligncenter{
+    align-items: center;
+}
+.heading{
+    height: 7vh;
+}
+.gap8{
+    gap: 28px;
+}
+.logo{
+    font-size: 20px;
+}
+.logoback{
+    color: #416B4A;
+    font-weight: 500;
+}
+li a{
+    font-size: 18px;
+}
+li a:hover{
+    color: #33693F;
+}
+.buttons{
+    padding: 10px 19px;
+    border: 1px solid green;
+    font-weight: 600;
+    color: white;
+    background-color: #33693F;
+}
+.aboutme{
+    height: 70vh;
+}
+.aboutdetails{
+    width: 38vw;
+}
+.aboutdetails div ol li i{
+    font-size: 28px;
+    color: #02D931;
+}
+.aboutdetails h1{
+    font-size: 38px;
+    text-align: start;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.aboutdetails p{
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.aboutdetails h1 span{
+    color: #3DCC5C;
+}
+
+.aboutimg img{
+    width: 500px;
+}
+.thingiknow{
+    height: 15vh;
+}
+.thingsitem{
+    width: 18vw;
+    gap: 18px;
+}
+.thingsitem i{
+    font-size: 43px;
+    color: #02D931;
+}
+.thingsitem div p{
+    font-size: 18px;
+    text-align: start;
+    color: #63AD73;
+}
+.thingsitem div h1{
+    font-weight: 400;
+    color: #416B4A;
+}
+
+.portfolio{
+    height: 50vh;
+}
+.pheading{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.pitems{
+    width: 30vw;
+    flex-direction: column;
+}
+.pitems img{
+    width: 300px;
+    height: 250px;
+    object-fit: contain;
+}
+.pitems h1{
+    text-align: start;
+    font-size: 28px;
+    margin-top: 10px;
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 25px;
+}
+.pitems p{
+    font-size: 18px;
+    width: 300px;
+    text-align: start;
+}
+.buttons{
+    margin-top: 10px;
+    padding: 10px 19px;
+    border: 1px solid green;
+    font-weight: 600;
+    color: white;
+    background-color: #33693F;
+}
+.footer{
+    height: 5vh;
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+.skill{
+    
+}
+.skill h1{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.skill div{
+    width: 30vw;
+    gap: 18px;
+}
+.skill div img{
+    width: 50px;
+}
