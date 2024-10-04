@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+
+}
+.one{
+    grid-column: 2/3;
+}
+
+.grid1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.okteam{
+    height: 100vh;
+}
+/* transition */
+/* transition: property duration timing-funciton delay; */
+.team{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 75px;
+    /* transition-property: width;
+    transition-duration: 3s ;
+    transition-timing-function: ease-out; */
+    /* transition-delay: 10s ; */
+    animation-name: hello;
+    animation-duration: 10s ;
+    animation-delay:2s ;
+    animation-timing-function: ease-in-out;
+}
+/* .team:hover{
+    width: 500px;
+    color: black;
+} */
+/* animation in css */
+@keyframes hello {
+    0%{
+        transform: translateY(100%);
+        background-color: yellow;
+    }
+    20%{
+         transform: translateX(100%);
+        background-color: blue;
+    }
+    100%{
+         transform: translateZ(100%);
+        background-color: red;
+    }
+}
+@media (max-width: 767px ) {
+    body{
+        background-color: green;
+    }
+}
+@media (min-width: 1024px){
+    body{
+        background-color: yellow;
+    }
+}
+/* media query for tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body{
+        background-color: aquamarine;
+    }
+}
+
+
